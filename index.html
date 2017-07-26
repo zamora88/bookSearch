@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BookWorms</title>
+    <!-- <link rel="stylesheet" type="text/css" href="bookworm.css"> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- first the navbar -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">BookWorms!</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <form class="navbar-form navbar-right" id="seacrchForm">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="authSearch" placeholder="Search for Author/Book">
+                    </div>
+                  
+                    <button type="submit" id="sbmt" class="btn btn-info">Submit</button>
+                </form>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+
+    <!-- Div which will populate with picture of auther or book(if u find API for any of both) -->
+    <!-- Div which will populate with list of books(book names will show up as links(picture). User will click on links which will open into new tab on broswer with more information of the listed book) -->
+  
+       
+    </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-lg-9">
+                        <table class="mainContent" style="width:100%"> </table>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="picture"></div>
+                    </div>
+            </div>
+        </div>
+
+
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

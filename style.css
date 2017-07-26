@@ -1,0 +1,59 @@
+body {
+	background-image: url("http://www.mastergate.co.il/preview/wp-content/themes_textures/pattern/flower-swirl10.png");
+}
+th {
+	vertical-align: top;
+}
+	
+th{
+	padding-right: 20px;
+}
+
+td {
+	vertical-align: top;
+	padding-bottom: 30px;
+}
+
+h4 {
+	text-align: center;
+
+}
+
+#hd{
+	padding: 5px;
+	background-color: #008B8B;
+    color: white;
+	opacity: 0.7;
+}
+
+img {
+		
+		width:300px;
+		position: fixed; 
+		border: 3px solid #008B8B;
+		top: 50%;
+		transform: translateY( -50%);
+	}
+
+	@media (max-width: 1200px) { 
+	
+
+	.picture{
+		display: none;
+	}
+
+
+	 }
+
+
+/*.navbar-brand  {
+	background-color: navy;
+	
+
+}
+
+.collapse {
+	background-color: navy;
+	
+}
+*/
